@@ -1,0 +1,185 @@
+.about-grid {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 4rem;
+  align-items: flex-start;
+}
+
+.about-bio-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  text-align: left;
+}
+
+.about-subtitle {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  background: var(--gradient-accent);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about-para {
+  color: var(--text-secondary);
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.objective-panel {
+  display: flex;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  margin-top: 1rem;
+  border-left: 4px solid var(--accent-blue);
+  background: rgba(59, 130, 246, 0.03);
+}
+
+.objective-icon {
+  font-size: 2rem;
+  color: var(--accent-blue);
+  display: flex;
+  align-items: flex-start;
+  margin-top: 0.2rem;
+}
+
+.objective-content h4 {
+  font-size: 1.15rem;
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
+.objective-content p {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* Right Side Cards styling */
+.about-cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: left;
+}
+
+.about-highlight-card {
+  display: flex;
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.card-header-icon {
+  font-size: 2.2rem;
+  display: flex;
+  align-items: flex-start;
+  margin-top: 0.2rem;
+}
+
+.color-blue {
+  color: var(--accent-blue);
+}
+
+.color-purple {
+  color: var(--accent-purple);
+}
+
+.card-body {
+  flex: 1;
+}
+
+.card-body h4 {
+  font-size: 1.25rem;
+  margin-bottom: 1.2rem;
+  color: #fff;
+}
+
+.education-detail h5 {
+  font-size: 1.1rem;
+  color: #fff;
+  margin-bottom: 0.3rem;
+}
+
+.edu-inst {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.edu-aff {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 0.8rem;
+}
+
+.edu-meta {
+  display: flex;
+  gap: 1rem;
+}
+
+.edu-dur, .edu-grade {
+  font-size: 0.85rem;
+  padding: 0.3rem 0.8rem;
+  border-radius: 99px;
+  font-family: var(--font-heading);
+}
+
+.edu-dur {
+  background: rgba(139, 92, 246, 0.1);
+  border: 1px solid rgba(139, 92, 246, 0.2);
+  color: var(--accent-purple);
+}
+
+.edu-grade {
+  background: rgba(59, 130, 246, 0.1);
+  border: 1px solid rgba(59, 130, 246, 0.2);
+  color: var(--accent-blue);
+}
+
+.focus-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.focus-list li {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  position: relative;
+  padding-left: 1.2rem;
+}
+
+.focus-list li::before {
+  content: '✦';
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--accent-purple);
+}
+
+/* Responsiveness */
+@media (max-width: 992px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .about-highlight-card {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1.5rem;
+  }
+  .card-header-icon {
+    font-size: 1.8rem;
+  }
+  .edu-meta {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+}
