@@ -6,8 +6,9 @@ import "./Hero.css";
 
 const ROLES = [
   "Full Stack Web Developer",
-  "MERN Stack Specialist",
-  "Software Engineering Student"
+  "Specially In MERN Stack ",
+  "Goal Is To Become A Software Engineer",
+  
 ];
 
 function Hero() {
@@ -58,7 +59,9 @@ function Hero() {
           </div>
 
           <p className="hero-summary">
-            {profileData.description}
+            Every project is an opportunity to learn, improve, and create something meaningful.
+             I focus on building scalable web applications with
+             modern technologies while continuously exploring AI and real-world software solutions.
           </p>
 
           {/* Social Links */}

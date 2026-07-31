@@ -2,15 +2,15 @@ export const profileData = {
   name: "Pratik Beladiya",
   title: "Full Stack Web Developer",
   subTitle: "Building robust, scalable, and delightful digital experiences.",
-  description: "I am a passionate Full Stack Developer and Information Technology student dedicated to building high-performance, responsive, and user-centric web applications. Specializing in the MERN stack (MongoDB, Express, React, Node.js) and database management, I love turning complex problems into elegant, functional code.",
-  resumeUrl: "/resume.pdf", // Users can drop their resume.pdf in the public folder
+  description: "I'm a passionate Full Stack Developer who enjoys building modern, scalable, and user-friendly web applications. My primary focus is the MERN Stack, and I continuously improve my skills by developing real-world projects, exploring Generative AI, and learning industry best practices. I believe in clean code, continuous learning, and creating software that delivers real value.",
+  resumeUrl: "/pratik_resume.pdf", // Users can drop their resume.pdf in the public folder
   socials: {
     github: "https://github.com/Pratikbeladiya",
-    linkedin: "https://linkedin.com",
+    linkedin: "www.linkedin.com/in/pratik-beladiya-7b01a3328",
     email: "mailto:beladiyapratik03@gmail.com",
     rawEmail: "beladiyapratik03@gmail.com"
   },
-  objective: "To secure a challenging role as a Full Stack Developer in a dynamic organization where I can leverage my technical skills, build impactful software, and continuously evolve as an engineer.",
+  objective: "Driven Full Stack Developer passionate about creating modern web applications, learning emerging technologies, and delivering reliable software solutions that create real-world impact.",
   education: [
     {
       degree: "B.E. Information Technology",

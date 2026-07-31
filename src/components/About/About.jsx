@@ -23,7 +23,7 @@ function About() {
     <section className="about-section" id="about">
       <h2 className="section-title">About Me</h2>
 
-      <motion.div 
+      <motion.div
         className="about-grid"
         variants={containerVariants}
         initial="hidden"
@@ -33,16 +33,13 @@ function About() {
         {/* Left Side: Bio and Personal Statement */}
         <motion.div className="about-bio-container" variants={itemVariants}>
           <h3 className="about-subtitle">Who I Am</h3>
-          
+
           <p className="about-para">
             {profileData.description}
           </p>
 
           <p className="about-para">
-            Throughout my engineering education, I've focused heavily on practical development, 
-            working through complex logical workflows and building products that solve concrete needs. 
-            I enjoy learning new APIs, testing backend configurations, and refining user interfaces 
-            until they feel solid and responsive.
+            Driven by curiosity and continuous learning, I build modern web applications that are scalable, reliable, and user-focused.
           </p>
 
           <div className="objective-panel glass-panel">
@@ -88,13 +85,15 @@ function About() {
               <h4>Development Focus</h4>
               <ul className="focus-list">
                 <li>
-                  <strong>MERN Architecture:</strong> Designing clean REST APIs using Express/Node.js, with structured models in MongoDB.
+                  <strong>MERN Stack:</strong> Developing scalable full-stack applications with React, Node.js, Express.js, and MongoDB.
                 </li>
+
                 <li>
-                  <strong>Frontend Dynamics:</strong> Crafting interactive layouts with custom CSS, React Hooks, and fluid animation curves.
+                  <strong>Backend Engineering:</strong> Designing secure REST APIs, authentication, and role-based systems using modern architecture.
                 </li>
+
                 <li>
-                  <strong>Database Optimization:</strong> Writing performant queries and normalization schemes in MySQL and MongoDB.
+                  <strong>Continuous Learning:</strong> Exploring Generative AI, cloud-ready development, and building impactful software solutions.
                 </li>
               </ul>
             </div>

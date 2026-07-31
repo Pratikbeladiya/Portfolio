@@ -24,7 +24,7 @@ function Footer() {
             <span>Pratik</span>Beladiya
           </a>
           <p className="footer-tagline">
-            Full Stack Web Developer & Software Engineer. Crafting modern solutions with robust architectures.
+           Turning ideas into reliable web applications through clean code, modern technologies, and continuous improvement.
           </p>
         </div>
 

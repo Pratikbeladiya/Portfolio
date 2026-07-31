@@ -103,9 +103,9 @@ function Contact() {
         >
           <h3 className="contact-subtitle">Let's Connect</h3>
           <p className="contact-text">
-            Have a project in mind, want to discuss software development opportunities, 
-            or just want to say hello? Drop a message in the form, or email me directly. 
-            I typically respond within 24 hours.
+           Interested in my profile, resume, or projects? I'm currently open to internships, entry-level software development roles, and exciting opportunities.
+            Feel free to send me an email or contact me directly.
+            I'd be happy to connect and discuss how I can contribute to your team.
           </p>
 
           <div className="info-cards-list">

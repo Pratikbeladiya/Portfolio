@@ -22,14 +22,41 @@ export const projectsData = [
     liveUrl: "https://our-zoom.vercel.app/"
   },
   {
-    id: 3,
-    title: "YatriGo",
-    subtitle: "Travel Stay & Car Rental Booking Platform",
-    description: "Developed a comprehensive full-stack travel booking application that provides hotel and stay accommodations alongside a car rental platform. Users can search for rooms, list their own properties, rent vehicles, and securely check out.",
-    extendedDetails: "Includes profile settings, booking history, search filters (price, location, rating), and dynamic dashboard panels for property managers. Built with solid REST API standards, Express routing, and MongoDB schemas to ensure fast, scalable operations.",
-    image: "/yatrigo.png",
-    tags: ["React.js", "Node.js", "Express.js", "MongoDB", "Framer Motion"],
-    githubUrl: "https://github.com/Pratikbeladiya",
-    liveUrl: "https://yatri-go.vercel.app/"
-  }
+  id: 3,
+  title: "Enterprise-HRMS",
+  subtitle: "Human Resource Management System",
+  description: "Developed a full-stack Human Resource Management System (HRMS) to streamline employee management, attendance tracking, payroll processing, leave requests, recruitment, announcements, and project management with secure role-based access.",
+  extendedDetails: "Features include authentication with JWT, employee and department management, attendance, payroll, leave management, recruitment, announcements, project management, RESTful APIs, and MongoDB integration. Built with a scalable MVC architecture for efficient HR operations.",
+  image: "/HRMS.png",
+  tags: [
+    "React.js",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "JWT",
+    "Tailwind CSS"
+  ],
+  githubUrl: "https://github.com/Pratikbeladiya/Enterprise-HRMS",
+  liveUrl: "https://your-hrms-live-link.vercel.app/"
+},
+
+{
+  id: 4,
+  title: "VectorCommerce",
+  subtitle: "Full Stack MERN E-Commerce Platform",
+  description: "Developed a full-stack MERN E-Commerce platform featuring secure user authentication, product management, shopping cart, order processing, Razorpay payment integration, and an admin dashboard for efficient store management.",
+  extendedDetails: "The platform includes role-based authentication with JWT, product and category management, cart and wishlist functionality, secure Razorpay payment gateway integration, order management, user profile, responsive UI, RESTful APIs, and MongoDB database. Built using a scalable MVC architecture with clean backend structure for real-world e-commerce operations.",
+  image: "/VectorCommerce.png",
+  tags: [
+    "React.js",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "JWT",
+    "Razorpay",
+    "Tailwind CSS"
+  ],
+  githubUrl: "https://github.com/Pratikbeladiya/High-performance-ecommerce-ai-search",
+  liveUrl: "https://your-vectorcommerce-live-link.vercel.app/"
+}
 ];
