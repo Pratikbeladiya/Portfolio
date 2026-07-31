@@ -103,7 +103,7 @@ function Hero() {
           <div className="hero-profile-card glass-panel">
             <div className="profile-image-wrapper">
               <img 
-                src="/pratikPhoto.jpeg" 
+                src="/profilePhoto3.jpeg" 
                 alt="Pratik Beladiya Profile" 
                 className="profile-img"
               />
